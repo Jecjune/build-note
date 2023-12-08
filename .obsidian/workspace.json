@@ -11,12 +11,9 @@
             "id": "c2134b41d4ef20be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "pve系列/群晖/gitlab的安装.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "pve系列/picture/局域网DNS7.png"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pve系列/群晖/gitlab的安装.md",
+                "file": "pve系列/picture/局域网DNS7.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pve系列/群晖/gitlab的安装.md"
+                "file": "pve系列/picture/局域网DNS7.png"
               }
             }
           },
@@ -119,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pve系列/群晖/gitlab的安装.md",
+                "file": "pve系列/picture/局域网DNS7.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,19 +146,21 @@
   },
   "active": "c2134b41d4ef20be",
   "lastOpenFiles": [
+    "pve系列/picture/局域网DNS6.png",
+    "pve系列/picture/局域网DNS5.png",
+    "pve系列/picture/局域网DNS4.png",
+    "pve系列/picture/局域网DNS3.png",
+    "pve系列/picture/局域网DNS2.png",
+    "pve系列/picture/局域网DNS1.png",
+    "pve系列/picture/局域网DNS7.png",
+    "pve系列/群晖/gitlab的安装.md",
     "pve系列/局域网反向代理.md",
     "pve系列/局域网DNS解析.md",
     "pve系列/解决53端口占用问题.md",
     "ESC系列/SSL证书申请.md",
     "pve系列/远程连接.md",
-    "Pasted image 20231208223753.png",
-    "Pasted image 20231208223232.png",
-    "Pasted image 20231208222950.png",
     "Pasted image 20231208222608.png",
-    "Pasted image 20231208222415.png",
     "Pasted image 20231208222513.png",
-    "Pasted image 20231208222159.png",
-    "Pasted image 20231208222059.png",
     "Pasted image 20231208222011.png",
     "Pasted image 20231208221856.png",
     "ESC系列/docker的基本指令.md",
@@ -172,7 +171,6 @@
     "pve系列/目录.md",
     "pve系列/群晖/alist的安装.md",
     "ESC系列/基于宝塔面板的反向代理.md",
-    "pve系列/群晖/gitlab的安装.md",
     "pve系列/群晖/群晖的安装.md",
     "pve系列/群晖/关于远程连接.md",
     "pve系列/设置邮箱通知.md",
@@ -184,7 +182,6 @@
     "pve系列/frps示例.md",
     "ESC系列/alist的安装.md",
     "ESC系列/目录.md",
-    "ESC系列/ipv6的探索.md",
     "ESC系列/picture",
     "[pve系列/群晖",
     "[pve系列",

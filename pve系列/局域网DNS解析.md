@@ -32,24 +32,24 @@ docker start dns-server
 - 访问地址 `https://ip:10000`
 - 默认账户和密码`root/password`
 
-![[Pasted image 20231208221422.png]]
+![[局域网DNS1.png]]
 
 更改语言,记得刷新网页:
-![[Pasted image 20231208222059.png]]
+![[局域网DNS2.png]]
 
 设定默认值
-![[Pasted image 20231208222159.png]]
+![[局域网DNS3.png]]
 
 创建新的主区域-正向映射
-![[Pasted image 20231208222415.png]]
+![[局域网DNS4.png]]
 
-![[Pasted image 20231208222950.png]]
+![[局域网DNS5.png]]
 域名写要解析的域名，如：dawalker.top
 email随便写写就好
 主服务器指向自己就可以了，因为只做本地解析
 然后为新建的主区域添加ip映射
-![[Pasted image 20231208223232.png]]
-![[Pasted image 20231208223753.png]]
+![[局域网DNS6.png]]
+![[局域网DNS7.png]]
 名称就是子级域名，地址就是ip地址
 
 ### **重启容器**
