@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "目录.md",
+                "file": "实验室服务器平台使用手册/群晖(NAS).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "目录.md",
+                "file": "实验室服务器平台使用手册/群晖(NAS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "目录.md"
+                "file": "实验室服务器平台使用手册/群晖(NAS).md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "目录.md",
+                "file": "实验室服务器平台使用手册/群晖(NAS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,8 +149,18 @@
   },
   "active": "c2134b41d4ef20be",
   "lastOpenFiles": [
-    "pve系列/目录.md",
+    "Pasted image 20231210224950.png",
+    "实验室服务器平台使用手册/目录.md",
+    "实验室服务器平台使用手册/Alist.md",
+    "实验室服务器平台使用手册/Gitlab.md",
+    "实验室服务器平台使用手册/群晖(NAS).md",
+    "实验室服务器平台使用手册/picture/使用手册1.png",
+    "实验室服务器平台使用手册/picture/使用手册2.png",
+    "实验室服务器平台使用手册/picture",
     "目录.md",
+    "未命名.md",
+    "实验室服务器平台使用手册",
+    "pve系列/目录.md",
     "ESC系列/目录.md",
     "ESC系列/docker的安装（ubuntu）.md",
     "pve系列/群晖/群晖的使用.md",
@@ -168,7 +178,6 @@
     "pve系列/picture/局域网DNS4.png",
     "pve系列/picture/局域网DNS2.png",
     "pve系列/picture/邮箱通知1.png",
-    "ESC系列/picture/反向代理0.png",
     "ESC系列/基于宝塔面板的反向代理.md",
     "ESC系列/宝塔面板的安装.md",
     "pve系列/局域网反向代理.md",
@@ -178,13 +187,6 @@
     "pve系列/解决53端口占用问题.md",
     "pve系列/Dnsmasq配置文件示例.md",
     "ESC系列/docker的基本指令.md",
-    "pve系列/picture/局域网DNS5.png",
-    "pve系列/群晖/gitlab的安装.md",
-    "ESC系列/SSL证书申请.md",
-    "v2ray/订阅.md",
-    "v2ray/快速上手（目录）.md",
-    "v2ray/安装.md",
-    "pve系列/群晖/群晖的安装.md",
     "ESC系列/picture",
     "[pve系列/群晖",
     "[pve系列",
@@ -192,8 +194,6 @@
     "ESC系列/目录",
     "ESC系列",
     "v2ray/picture",
-    "v2ray",
-    "pve系列/picture",
-    "pve系列/新建文件夹"
+    "v2ray"
   ]
 }
