@@ -41,9 +41,7 @@ docker pull <镜像名> <标签名>
 添加文件夹docker/gitea    装载路径为 /data/gitea
 添加文件夹docker/gitea/root  装载路径为 /data/git/repositories               注意：记得取消只读勾选！！
 链接选项，将mysql添加进来，别名随便取，我设为my-gitea
- //环境选项，USER    git
-	//	GITEA_CUSTOM   /data/gitea
-	//	PATH /usr/local/sbin:/usr/local/bin:/git     （环境选项别写，写了就不行，这里只做记录）
+
 运行容器，并打开刚刚设置的端口地址（群晖ip地址+映射的本地端口地址）
 第一次进入git需要配置
 	数据库主机：这里写mysql的地址（ip+本地端口号）

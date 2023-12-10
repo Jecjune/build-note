@@ -11,9 +11,12 @@
             "id": "c2134b41d4ef20be",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pve系列/picture/局域网DNS7.png"
+                "file": "目录.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pve系列/picture/局域网DNS7.png",
+                "file": "目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pve系列/picture/局域网DNS7.png"
+                "file": "目录.md"
               }
             }
           },
@@ -116,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pve系列/picture/局域网DNS7.png",
+                "file": "目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,42 +149,42 @@
   },
   "active": "c2134b41d4ef20be",
   "lastOpenFiles": [
-    "pve系列/picture/局域网DNS6.png",
-    "pve系列/picture/局域网DNS5.png",
-    "pve系列/picture/局域网DNS4.png",
-    "pve系列/picture/局域网DNS3.png",
-    "pve系列/picture/局域网DNS2.png",
-    "pve系列/picture/局域网DNS1.png",
-    "pve系列/picture/局域网DNS7.png",
-    "pve系列/群晖/gitlab的安装.md",
-    "pve系列/局域网反向代理.md",
+    "pve系列/目录.md",
+    "目录.md",
+    "ESC系列/目录.md",
+    "ESC系列/docker的安装（ubuntu）.md",
+    "pve系列/群晖/群晖的使用.md",
+    "pve系列/群晖/群晖Gitea安装（旧）.md",
+    "pve系列/PVE安装.md",
     "pve系列/局域网DNS解析.md",
-    "pve系列/解决53端口占用问题.md",
-    "ESC系列/SSL证书申请.md",
+    "pve系列/Win虚拟机创建.md",
+    "ESC系列/ipv6的探索.md",
+    "markdown的使用.md",
+    "pve系列/picture/局域网DNS9.png",
+    "pve系列/picture/局域网DNS8.png",
+    "pve系列/picture/局域网DNS7.png",
+    "pve系列/picture/局域网DNS6.png",
+    "pve系列/picture/局域网DNS1.png",
+    "pve系列/picture/局域网DNS4.png",
+    "pve系列/picture/局域网DNS2.png",
+    "pve系列/picture/邮箱通知1.png",
+    "ESC系列/picture/反向代理0.png",
+    "ESC系列/基于宝塔面板的反向代理.md",
+    "ESC系列/宝塔面板的安装.md",
+    "pve系列/局域网反向代理.md",
     "pve系列/远程连接.md",
-    "Pasted image 20231208222608.png",
-    "Pasted image 20231208222513.png",
-    "Pasted image 20231208222011.png",
-    "Pasted image 20231208221856.png",
+    "pve系列/运维指令.md",
+    "pve系列/群晖/alist的安装.md",
+    "pve系列/解决53端口占用问题.md",
+    "pve系列/Dnsmasq配置文件示例.md",
     "ESC系列/docker的基本指令.md",
+    "pve系列/picture/局域网DNS5.png",
+    "pve系列/群晖/gitlab的安装.md",
+    "ESC系列/SSL证书申请.md",
     "v2ray/订阅.md",
     "v2ray/快速上手（目录）.md",
     "v2ray/安装.md",
-    "ESC系列/docker的安装（ubuntu）.md",
-    "pve系列/目录.md",
-    "pve系列/群晖/alist的安装.md",
-    "ESC系列/基于宝塔面板的反向代理.md",
     "pve系列/群晖/群晖的安装.md",
-    "pve系列/群晖/关于远程连接.md",
-    "pve系列/设置邮箱通知.md",
-    "pve系列/Win虚拟机创建.md",
-    "pve系列/群晖/群晖的使用.md",
-    "pve系列/PVE安装.md",
-    "目录.md",
-    "pve系列/软路由的安装.md",
-    "pve系列/frps示例.md",
-    "ESC系列/alist的安装.md",
-    "ESC系列/目录.md",
     "ESC系列/picture",
     "[pve系列/群晖",
     "[pve系列",
