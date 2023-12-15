@@ -31,9 +31,12 @@
             "id": "15faf7e7bc3bb383",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "实验室服务器平台使用手册/picture/1702609643469(1).png"
+                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -104,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实验室服务器平台使用手册/picture/1702609643469(1).png",
+                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实验室服务器平台使用手册/picture/1702609643469(1).png"
+                "file": "实验室服务器平台使用手册/gitlab使用技巧.md"
               }
             }
           },
@@ -137,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实验室服务器平台使用手册/picture/1702609643469(1).png",
+                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,11 +171,16 @@
   },
   "active": "eed1dbea334dc9ac",
   "lastOpenFiles": [
+    "实验室服务器平台使用手册/picture/1702611506283.png",
+    "实验室服务器平台使用手册/picture/Pasted image 20231215113721.png",
+    "实验室服务器平台使用手册/picture/Pasted image 20231215113638.png",
+    "实验室服务器平台使用手册/目录.md",
+    "实验室服务器平台使用手册/gitlab使用技巧.md",
+    "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
+    "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164517.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164714.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164801.png",
-    "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
     "小脚本系列/校园网自动登录/校园网自动登录脚本.md",
     "实验室服务器平台使用手册/picture/1702609643469(1).png",
     "实验室服务器平台使用手册/群晖(NAS).md",
@@ -181,13 +189,10 @@
     "使用手册.pdf",
     "实验室服务器平台使用手册/Alist.md",
     "实验室服务器平台使用手册/Gitlab.md",
-    "实验室服务器平台使用手册/目录.md",
     "目录.pdf",
     "未命名.canvas",
     "实验室服务器平台使用手册/picture/使用手册2.png",
     "实验室服务器平台使用手册/picture/使用手册1.png",
-    "小脚本系列/校园网自动登录/图2.png",
-    "小脚本系列/校园网自动登录/图1.png",
     "小脚本系列/校园网自动登录/未命名 1.md",
     "小脚本系列/校园网自动登录",
     "未命名",
@@ -211,7 +216,6 @@
     "pve系列/局域网反向代理.md",
     "pve系列/远程连接.md",
     "pve系列/运维指令.md",
-    "pve系列/群晖/alist的安装.md",
     "ESC系列/picture",
     "[pve系列/群晖"
   ]
