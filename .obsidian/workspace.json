@@ -4,44 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "b44b5994bfc725f0",
+        "id": "0bc45ed84d048d7c",
         "type": "tabs",
         "children": [
           {
-            "id": "1409453834e51e75",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png"
-              }
-            }
-          },
-          {
-            "id": "84900d00b1eaa848",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "实验室服务器平台使用手册/picture/Pasted image 20231214164517.png"
-              }
-            }
-          },
-          {
-            "id": "15faf7e7bc3bb383",
+            "id": "05c452eb44f97630",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
+                "file": "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
+                "file": "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "实验室服务器平台使用手册/gitlab使用技巧.md"
+                "file": "实验室服务器平台使用手册/实验室服务器平台使用手册.md"
               }
             }
           },
@@ -140,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实验室服务器平台使用手册/gitlab使用技巧.md",
+                "file": "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,53 +148,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eed1dbea334dc9ac",
+  "active": "05c452eb44f97630",
   "lastOpenFiles": [
+    "Pasted image 20231222155257.png",
+    "实验室服务器平台使用手册/gitlab使用技巧.md",
+    "实验室服务器平台使用手册/目录.md",
+    "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
+    "实验室服务器平台使用手册/Alist.md",
+    "实验室服务器平台使用手册/Gitlab.md",
+    "实验室服务器平台使用手册/群晖(NAS).md",
+    "ESC系列/目录.md",
+    "未命名",
+    "ESC系列/docker的安装（ubuntu）.md",
+    "目录.md",
+    "pve系列/目录.md",
+    "pve系列/局域网DNS解析.md",
+    "pve系列/局域网反向代理.md",
+    "ESC系列/基于宝塔面板的反向代理.md",
+    "pve系列/群晖/alist的安装.md",
+    "pve系列/软路由的安装.md",
+    "v2ray/快速上手（目录）.md",
+    "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/1702611506283.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231215113721.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231215113638.png",
-    "实验室服务器平台使用手册/目录.md",
-    "实验室服务器平台使用手册/gitlab使用技巧.md",
-    "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164517.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164714.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164801.png",
     "小脚本系列/校园网自动登录/校园网自动登录脚本.md",
     "实验室服务器平台使用手册/picture/1702609643469(1).png",
-    "实验室服务器平台使用手册/群晖(NAS).md",
     "实验室服务器平台使用手册/picture/Pasted image 20231214163842.png",
     "实验室服务器平台使用手册.pdf",
     "使用手册.pdf",
-    "实验室服务器平台使用手册/Alist.md",
-    "实验室服务器平台使用手册/Gitlab.md",
     "目录.pdf",
     "未命名.canvas",
     "实验室服务器平台使用手册/picture/使用手册2.png",
-    "实验室服务器平台使用手册/picture/使用手册1.png",
     "小脚本系列/校园网自动登录/未命名 1.md",
     "小脚本系列/校园网自动登录",
-    "未命名",
     "小脚本系列",
     "实验室服务器平台使用手册/picture",
-    "目录.md",
     "未命名.md",
     "实验室服务器平台使用手册",
-    "pve系列/目录.md",
-    "ESC系列/目录.md",
-    "ESC系列/docker的安装（ubuntu）.md",
     "pve系列/群晖/群晖的使用.md",
     "pve系列/群晖/群晖Gitea安装（旧）.md",
     "pve系列/PVE安装.md",
-    "pve系列/局域网DNS解析.md",
     "pve系列/Win虚拟机创建.md",
     "ESC系列/ipv6的探索.md",
     "markdown的使用.md",
-    "ESC系列/基于宝塔面板的反向代理.md",
-    "ESC系列/宝塔面板的安装.md",
-    "pve系列/局域网反向代理.md",
-    "pve系列/远程连接.md",
-    "pve系列/运维指令.md",
     "ESC系列/picture",
     "[pve系列/群晖"
   ]
