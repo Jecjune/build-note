@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pve系列/Win虚拟机创建.md",
+                "file": "v2ray/订阅.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pve系列/Win虚拟机创建.md",
+                "file": "v2ray/订阅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pve系列/Win虚拟机创建.md"
+                "file": "v2ray/订阅.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pve系列/Win虚拟机创建.md",
+                "file": "v2ray/订阅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,11 +150,35 @@
   },
   "active": "05c452eb44f97630",
   "lastOpenFiles": [
-    "pve系列/目录.md",
-    "实验室服务器平台使用手册/gitlab使用技巧.md",
-    "实验室服务器平台使用手册/目录.md",
+    "小脚本系列/校园网自动登录/校园网自动登录脚本2.md",
     "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
+    "目录.md",
+    "pve系列/局域网DNS解析.md",
+    "pve系列/目录.md",
+    "pve系列/远程连接.md",
+    "pve系列/Dnsmasq配置文件示例.md",
+    "实验室服务器平台使用手册/目录.md",
+    "小脚本系列/校园网自动登录/picture/Pasted image 20240101210000.png",
+    "Pasted image 20240113172808.png",
+    "小脚本系列/校园网自动登录/picture/Pasted image 20240101205437.png",
+    "Pasted image 20240101205437.md",
+    "小脚本系列/校园网自动登录/校园网自动登录脚本1.md",
+    "Pasted image 20240101205056.png",
+    "pve系列/群晖/gitlab的安装.md",
+    "pve系列/Win虚拟机创建.md",
+    "小脚本系列/校园网自动登录/picture/Pasted image 20240101204829.png",
+    "小脚本系列/校园网自动登录/picture",
+    "pve系列/新增硬盘.md",
+    "pve系列/群晖/群晖Gitea安装（旧）.md",
+    "pve系列/群晖/群晖的使用.md",
+    "pve系列/PVE安装.md",
+    "实验室服务器平台使用手册/gitlab使用技巧.md",
     "实验室服务器平台使用手册/实验室服务器平台使用手册.pdf",
+    "小脚本系列/校园网自动登录/picture/图2.png",
+    "小脚本系列/校园网自动登录/picture/图1.png",
+    "pve系列/frps示例.md",
+    "pve系列/局域网反向代理.md",
+    "pve系列/如何调整LVM相关PV、VG和LV大小.md",
     "实验室服务器平台使用手册/picture/Pasted image 20231222155257.png",
     "实验室服务器平台使用手册/Alist.md",
     "实验室服务器平台使用手册/Gitlab.md",
@@ -162,39 +186,16 @@
     "ESC系列/目录.md",
     "未命名",
     "ESC系列/docker的安装（ubuntu）.md",
-    "目录.md",
-    "pve系列/局域网DNS解析.md",
-    "pve系列/局域网反向代理.md",
     "ESC系列/基于宝塔面板的反向代理.md",
-    "pve系列/群晖/alist的安装.md",
-    "pve系列/软路由的安装.md",
-    "v2ray/快速上手（目录）.md",
     "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/1702611506283.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231215113721.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231215113638.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214164517.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214164714.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214164801.png",
-    "小脚本系列/校园网自动登录/校园网自动登录脚本.md",
-    "实验室服务器平台使用手册/picture/1702609643469(1).png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214163842.png",
     "使用手册.pdf",
     "目录.pdf",
     "未命名.canvas",
-    "小脚本系列/校园网自动登录/未命名 1.md",
     "小脚本系列/校园网自动登录",
     "小脚本系列",
     "实验室服务器平台使用手册/picture",
-    "未命名.md",
     "实验室服务器平台使用手册",
-    "pve系列/群晖/群晖的使用.md",
-    "pve系列/群晖/群晖Gitea安装（旧）.md",
-    "pve系列/PVE安装.md",
-    "pve系列/Win虚拟机创建.md",
-    "ESC系列/ipv6的探索.md",
-    "markdown的使用.md",
-    "ESC系列/picture",
-    "[pve系列/群晖"
+    "ESC系列/picture"
   ]
 }
