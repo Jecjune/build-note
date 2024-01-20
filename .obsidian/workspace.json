@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pve系列/LXC容器的使用.md",
+                "file": "pve系列/frp问题合集.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pve系列/LXC容器的使用.md",
+                "file": "pve系列/frp问题合集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pve系列/LXC容器的使用.md"
+                "file": "pve系列/frp问题合集.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pve系列/LXC容器的使用.md",
+                "file": "pve系列/frp问题合集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,12 +150,25 @@
   },
   "active": "05c452eb44f97630",
   "lastOpenFiles": [
+    "小脚本系列/校园网自动登录/校园网自动登录脚本1.md",
+    "小脚本系列/校园网自动登录/校园网自动登录脚本2.md",
+    "pve系列/frp问题合集.md",
+    "39d62400a0a0bdff278c4d7a3ce182c.jpg",
     "pve系列/远程连接.md",
-    "pve系列/LXC容器的使用.md",
-    "pve系列/目录.md",
     "pve系列/frps示例.md",
     "pve系列/PVE安装.md",
+    "小脚本系列/基于crontab的自动脚本.md",
     "实验室服务器平台使用手册/gitlab使用技巧.md",
+    "目录.md",
+    "ESC系列/docker的安装（dibian）.md",
+    "ESC系列/docker的基本指令.md",
+    "ESC系列/docker-容器相关知识.md",
+    "ESC系列/alist的安装.md",
+    "pve系列/局域网反向代理.md",
+    "pve系列/局域网DNS解析.md",
+    "pve系列/Win虚拟机创建.md",
+    "pve系列/LXC容器的使用.md",
+    "pve系列/目录.md",
     "实验室服务器平台使用手册/picture/2024-01-14_23-02.png",
     "实验室服务器平台使用手册/picture/2024-01-14_22-57.png",
     "实验室服务器平台使用手册/实验室服务器平台使用手册.md",
@@ -169,28 +182,18 @@
     "实验室服务器平台使用手册/群晖(NAS).md",
     "ESC系列/目录.md",
     "未命名",
-    "ESC系列/docker的安装（ubuntu）.md",
-    "目录.md",
-    "pve系列/局域网DNS解析.md",
-    "pve系列/局域网反向代理.md",
-    "ESC系列/基于宝塔面板的反向代理.md",
     "实验室服务器平台使用手册/picture/Pasted image 20231214165010.png",
     "实验室服务器平台使用手册/picture/1702611506283.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231215113721.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231215113638.png",
     "实验室服务器平台使用手册/picture/Pasted image 20231214164517.png",
-    "实验室服务器平台使用手册/picture/Pasted image 20231214164714.png",
-    "小脚本系列/校园网自动登录/校园网自动登录脚本.md",
     "使用手册.pdf",
     "目录.pdf",
     "未命名.canvas",
-    "小脚本系列/校园网自动登录/未命名 1.md",
     "小脚本系列/校园网自动登录",
     "小脚本系列",
     "实验室服务器平台使用手册/picture",
     "实验室服务器平台使用手册",
-    "pve系列/群晖/群晖的使用.md",
-    "pve系列/群晖/群晖Gitea安装（旧）.md",
     "ESC系列/picture",
     "[pve系列/群晖"
   ]

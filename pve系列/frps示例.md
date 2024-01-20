@@ -1,3 +1,4 @@
+完整配置流程请看：[[远程连接#^badfe3]]
 ## frps 端完整配置
 ```
 # A literal address or host name for IPv6 must be enclosed
