@@ -1,0 +1,18 @@
+image: python:latest
+
+before_script:
+  - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs && mkdocs --version
+  - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-material
+  - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple markdown_tags 
+  # - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-rss-plugin
+  - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-minify-plugin 
+  # - pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-static-i18n
+
+pages:
+  script:
+    - mkdocs build --site-dir public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

@@ -1,0 +1,316 @@
+# 项目信息
+site_name: build-note # 项目名称
+# site_url: https://localhost:8000/ # 我在nginx中使用的是8000端口，如果你使用的是80端口，可以直接写成https://localhost/。
+site_author: Jecjune # 作者
+site_description: >- # 项目描述
+  this is the document for building a server .
+
+# 代码仓库信息
+repo_name: mkdocs-template # 仓库名称
+repo_url: http://gitlab.dawalker.top/root/build-note.git # 仓库地址
+
+# 版权信息
+copyright: Copyright &copy; 2024 ~ now |   Jecjune
+
+# 配置
+theme:
+  custom_dir: docs # 自定义文件夹，对于个别页面，如果你不想使用主题的默认样式，可以在这里进行修改，使用里面的文件覆盖主题的默认文件。具体可以参考material官方文档。
+  name: material # 主题名称，Material已经是最优秀的选择了，相信我。
+  logo: static/images/logo.jpg # logo 图片
+  language: zh # 默认语言
+  features: # 功能  
+    - announce.dismiss # 可以叉掉公告的功能
+    - content.action.edit # 编辑按钮，似乎没啥用
+    - content.action.view # 查看按钮，似乎没啥用
+    - content.code.annotate # 代码注释，具体不清楚
+    - content.code.copy # 复制代码按钮
+    # - content.code.select # 选择代码按钮
+    # - content.tabs.link # 链接标签
+    - content.tooltips # 不太清楚呢这个
+    # - header.autohide # 自动隐藏header
+    - navigation.expand # 默认展开导航栏
+    - navigation.footer # 底部导航栏
+    - navigation.indexes # 索引按钮可以直接触发文件，而不是只能点击其下属选项浏览，这个功能可以给对应的section提供很好的预览和导航功能
+    # - navigation.instant # 瞬间加载 最好注释掉，多语言切换这个会导致跳回首页
+    - navigation.instant.prefetch # 预加载
+    - navigation.instant.progress # 进度条
+    - navigation.path # 导航路径， 目前好像没啥用
+    # - navigation.prune # 只构建可见的页面
+    - navigation.sections # 导航栏的section
+    - navigation.tabs # 顶级索引被作为tab
+    - navigation.tabs.sticky # tab始终可见
+    - navigation.top # 开启顶部导航栏
+    - navigation.tracking # 导航栏跟踪
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
+    - search.suggest # 搜索建议
+    - toc.follow # 目录跟踪-页面右侧的小目录
+    # - toc.integrate # 目录跟踪集成到左侧大目录中
+  palette:
+    - media: "(prefers-color-scheme)" # 主题颜色
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)" # 浅色
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" # 深色
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font: # 字体，大概率不需要换
+    text: Roboto
+    code: Roboto Mono
+  favicon: static/images/favicon.png # 网站图标
+  icon: # 一些用到的icon
+    logo: logo
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    tag:
+      default-tag: fontawesome/solid/tag
+      hardware-tag: fontawesome/solid/microchip
+      software-tag: fontawesome/solid/laptop-code
+
+# Plugins
+plugins:
+  - tags # 标签功能插件
+  # - blog # 博客功能插件
+  # - rss: # rss订阅插件 - 不太懂是干嘛的目前
+  #     match_path: blog/posts/.* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags 
+  # - social # 目前我开启会报错，还没研究透
+  - search: # 搜索插件
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' # 分隔符
+  - minify: # 压缩插件
+      minify_html: true
+  # - privacy # 隐私插件
+  # - i18n: # 多语言插件
+  #     docs_structure: suffix # 抄来的，不太懂
+  #     fallback_to_default: true # 抄来的，不太懂
+  #     reconfigure_material: true # 抄来的，不太懂
+  #     reconfigure_search: true # 抄来的，不太懂
+
+  #     languages: # 多语言配置 - 其实一般情况下不需要多功能，关掉就好了
+  #       - locale: en
+  #         # default: true # 设置默认语言
+  #         name: English
+  #         build: true # 是否构建
+  #         # site_name: Infinity
+
+  #       - locale: zh
+  #         default: true # 设置默认语言
+  #         name: 简体中文
+  #         build: true
+  #         nav_translations: # 导航栏翻译，不可以有缩进,需要翻译其他标签的话，直接类似结构往下添加就好
+  #           HOME: 首页
+  #           GET_STARTED: 环境配置
+  #           INSTALL : python环境安装
+  #           BASE_USE :  基本使用方法
+  #           BASE_SETTING : 网页信息设置
+  #           NEW_PAGE : 新建资源文件
+  #           TEST_UPLOAD : 测试与上传
+
+# Hooks - 讲真，这个东西我还没搞懂
+# hooks:
+#   - material/overrides/hooks/shortcodes.py
+#   - material/overrides/hooks/translations.py
+
+# 额外配置项
+extra:
+  generator: false # 是否显示生成器
+  status: # 不是很懂有什么用
+    new: Recently added
+    deprecated: Deprecated
+  # analytics: # 分析工具， 我反正没用到
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  #   feedback: # feedback form
+  #     title: Was this page helpful?
+  #     ratings:
+  #       - icon: material/thumb-up-outline
+  #         name: This page was helpful
+  #         data: 1
+  #         note: >-
+  #           Thanks for your feedback!
+  #       - icon: material/thumb-down-outline
+  #         name: This page could be improved
+  #         data: 0
+  #         note: >- 
+  #           Thanks for your feedback! Help us improve this page by
+  #           using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  # alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。
+  #   - name: English
+  #     link: /en/ 
+  #     lang: en
+  #   - name: Chinese
+  #     link: /zh/
+  #     lang: zh
+  social: # 社交媒体，网页右下角的东西，这里引用的是FontAwesome图标库的图标，具体可以参考官方文档。
+    - icon: fontawesome/solid/house   #house主页图标
+      link: http://jecjune.dawalker.sbs/mkdocs_template
+    # - icon: fontawesome/brands/github   #github图标
+    #   link: https://github.com/Shuaiwen-Cui
+    - icon: fontawesome/brands/gitlab   #gitlab图标
+      link: https://gitlab.dawalker.top/Jecjune
+  tags: # 自定义标签
+    Default: default-tag
+    Hardware: hardware-tag
+    Software: software-tag
+  # consent: # 征求同意 Cookie
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+
+# 扩展
+markdown_extensions: # markdown拓展语法
+  - abbr
+  - admonition  #提示块
+  - attr_list
+  - def_list
+  - footnotes # 脚注
+  # - meta  # 定义元数据，通过文章上下文控制，如disqus
+  - md_in_html
+  - toc: # 锚点
+      permalink: true
+  - pymdownx.arithmatex: # 数学公式
+      generic: true
+  - pymdownx.betterem: # 对加粗和斜体更好的检测
+      smart_enable: all
+  - pymdownx.caret # 下划线上标
+  - pymdownx.details # 提示块可折叠
+  # - pymdownx.critic  # 增加删除修改高亮注释，可修饰行内或段落
+  - pymdownx.emoji: # 表情
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite # 行内代码高亮
+  - pymdownx.keys
+  - pymdownx.magiclink: # 自动识别超链接
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark # 文本高亮
+  - pymdownx.smartsymbols # 符号转换
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences: # 代码嵌套在列表里
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist: # 复选框checklist
+      custom_checkbox: true
+  - pymdownx.tilde # 删除线下标
+  - codehilite:    # 代码高亮，显示行号
+      guess_lang: false
+      linenums: true
+
+
+extra_css:
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css
+ 
+extra_javascript:
+#提供图标、数学公式、特殊字体支持相关的js文件，
+#参考自：https://blog.csdn.net/ZHAOJUNWEI08/article/details/136300485
+
+# - https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js
+# - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.17.1/flowchart.min.js
+# - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
+# - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-min.js
+# - https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-mindmap@9.3.0/dist/diagram-definition.0faef4c2.min.js
+# - https://cdn.jsdelivr.net/npm/markdown-it-plantuml@1.4.1/index.min.js
+# - https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js
+- https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+- https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml.js
+- https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-chtml-full.js
+- https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-svg-full.js
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js
+
+
+
+# 导航树 引号可以省略。开头的点和斜杠也可以省略 ("./HOME/about.md" 或 Home/about.md) 。
+#注意，导航树这里的文件名是 filename.md 这样的，但在文件夹中，它实际上被命名为 filename.en.md 和 filename.zh.md。
+# 其中，filename.en.md 也可以被命名为 filename.md，但是 filename.zh.md 不能被命名为 filename.md，否则会导致无法识别。
+#i18n插件会自动识别文件名，然后根据文件名的后缀来切换语言。所以，如果你想添加一个新页面，你需要添加两个文件，一个是 filename.en.md，另一个是 filename.zh.md。
+#默认语言的后缀可以省略，比如当前默认为en时，可以写成 "index.md" 而不是 "index.en.md"。值得注意的是，如果当前默认为英文，则不能同时出现index.md和index.en.md，否则会视为重复文件导致编译错误
+#多语言控制的只是网页相关的导航栏。如果开了多语言但是没有配置两种文件，会导致用户在切换语言时，页面会404。
+
+nav: 
+  - Home:
+      - "index.md"   #该标题对应的.md文件
+
+  - 使用手册:
+      - 实验室服务器平台使用手册: "实验室服务器平台使用手册/实验室服务器平台使用手册.md"
+      - gitlab使用技巧: "实验室服务器平台使用手册/gitlab使用技巧.md"
+
+  - PVE系列:
+      - pve简单说明: "pve/pve简单说明.md"
+      - PVE的安装与配置: "pve/Usage/PVE安装.md"
+      - 新增硬盘: "pve/Usage/新增硬盘.md"
+      - 设置SMTP邮箱通知: "pve/Usage/设置SMTP邮箱通知.md"
+      - win虚拟机创建: "pve/Usage/Win虚拟机创建.md"
+      - 软路由的安装: "pve/Usage/软路由的安装.md"
+      - 实现公网访问: "pve/网络管理/远程连接.md"
+      - 基于pve的群晖搭建: "pve/群晖/群晖的安装.md"
+      - 局域网反向代理: "pve/网络管理/局域网反向代理.md"
+      - 局域网DNS解析: "pve/网络管理/局域网DNS解析.md"
+      - LXC容器管理: "pve/Usage/LXC容器的使用.md"
+      - 常见运维指令: "pve/Usage/运维指令.md"
+      - fatab文件概述: "pve/Usage/fatab文件概述.md"
+  - ESC系列:
+      - 简单说明: "ESC系列/esc简单说明.md"
+      - 宝塔面板的安装: "ESC系列/网络配置/宝塔面板的安装.md"
+      - 实现反向代理: "ESC系列/网络配置/基于宝塔面板的反向代理.md"
+      - SSL证书申请: "ESC系列/网络配置/SSL证书申请.md"
+
+  - docker:
+      - 安装(ubuntu): "docker/docker的安装(ubuntu).md"
+      - 安装(dibian): "docker/docker的安装(dibian).md"
+      - docker使用笔记: "docker/docker-容器相关知识.md"
+      - docker的基本指令: "docker/docker的基本指令.md"
+
+  - gitlab:
+      - gitlab的安装: "pve/gitlab/gitlab的安装.md"
+      - gitlab-pages: "pve/gitlab/gitlab-pages.md"
+      - gitlab-runner: "pve/gitlab/gitlab-runner部署.md"
+      - gitlab版本升级: "pve/gitlab/gitlab升级.md"
+
+  - 代理(v2rayA):
+      - 快速上手: "代理/快速上手.md"
+      - 安装: "代理/安装.md"
+      - 订阅: "代理/订阅.md"
+      - 环境变量和命令行参数: "代理/环境变量和命令行参数.md"
+      - 使用其他核心: "代理/使用其他核心.md"
+
+  - 小脚本系列:
+      - 校园网自动登录1: "小脚本系列/校园网自动登录/校园网自动登录脚本1.md"
+      - 校园网自动登录2: "小脚本系列/校园网自动登录/校园网自动登录脚本2.md"
